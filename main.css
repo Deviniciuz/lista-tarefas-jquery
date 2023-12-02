@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nova Square', sans-serif;
+    outline: none;
+}
+
+h1 {
+    margin-top: 80px;
+    font-size: 60px;
+    text-align: center;
+}
+
+body {
+    background: url("./imagens/papiro.jpg");
+}
+
+
+.container {
+    background: url("./imagens/foto\ lista.png");
+    background-color: rgba(43, 42, 42, 0.474);
+    width: 650px;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 100px auto 0;
+    margin-block-start: 50px;
+}
+
+.input-task {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 535px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.button-add-task {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.button-add-task:hover {
+    opacity: 0.8;
+}
+
+.button-add-task:active {
+    opacity: 0.6;
+}
+
+.list-tasks {
+    width: 100%;
+    list-style: none;
+    margin-top: 40px;
+    
+}
+
+.task {
+    background-color: yellowgreen;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.5);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.task:hover img {
+    opacity: 1;
+}
+
+.done {
+    background-color: rgba(128, 128, 128, 0.568);
+    text-decoration: line-through;
+}
+
+footer  {
+    background-color: green;
+    color: #ffffff; 
+    padding: 3px 0;
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+    width: 100%;
+    font-size: 12px;
+
+}
+
+.cont {
+    margin-right: 1%;
+}
+
